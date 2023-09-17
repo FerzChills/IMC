@@ -9,10 +9,10 @@ def convert_image(input_path, himage_path, format):
             print("Gambar berhasil dikonversi ke PNG dan Tersimpan Di Path " + himage_path)
         elif format == "JPEG":
             image.save(himage_path, "JPEG")
-            print("Gambar berhasil dikonversi ke JPEG dan Tersimpan Di Path" + himage_path)
+            print("Gambar berhasil dikonversi ke JPEG dan Tersimpan Di Path " + himage_path)
         elif format == "GIF":
             image.save(himage_path, "GIF")
-            print("Gambar berhasil dikonversi ke GIF dan Tersimpan Di Path" + himage_path)
+            print("Gambar berhasil dikonversi ke GIF dan Tersimpan Di Path " + himage_path)
         else:
             print("Format gambar tidak didukung harap gunakan format gambar(PNG, JPEG, GIF)")
     except FileNotFoundError:
