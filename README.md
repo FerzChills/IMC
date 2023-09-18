@@ -7,5 +7,6 @@
  sudo apt python3 -y
  git clone https://github.com/FerzChills/IMC/
  cd IMC
+ pip install pillow
  python3 imc.py
  ```
